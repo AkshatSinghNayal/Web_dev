@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div>
+        <h1>Registration Form</h1>
+    </div>
+    <form action="/server">
+
+        <label for="fname"></label>
+        <input type="text" id="fname" name="fname" placeholder="First Name">
+
+        <label for="lname"></label>
+        <input type="text" id="lname" name="lname" placeholder="Last Name">
+        <br>
+        Please select gender <select name="gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other's">Other's</option>
+        </select>
+        <br>
+        Do you algree to all the terms and service? <input type="checkbox" name="termsandconditions" id="terms"
+            name="termsandconditions">
+        <label for="terms">Yes,I Agree</label><br>
+        <button>Register</button><br>
+
+    </form>
+    <textarea name="feedback" id="" cols="30" rows="10" placeholder="Please enter the feedback to the user"></textarea>
+
+    <h2>YOUTUBE SEARCH !!</h2>
+    <form action="https://www.youtube.com/results">
+        <label for="q"><b>Search in Youtube</b></label>
+        <input type="text" name="search_query" id="q" placeholder="Search"><br>
+        <button>Search</button><br>
+        <label for="vol">Adjust the volume brother</label>
+        <input type="range" min="0" max="100" id="vol" name="volume" step="5" value="70">
+
+
+
+
+</body>
+
+</html>
