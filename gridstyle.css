@@ -1,0 +1,21 @@
+.container{
+    height: 370px;
+    width: 600px;
+    background-color: black;
+    
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center ; */
+    display: grid;
+    grid-template-rows: 50px 50px 50px;
+    grid-template-columns: 100px 100px 100px;
+
+}
+
+.item{
+    height: 50px;
+    width: 100px;
+    background-color:rgb(67, 248, 67);
+    border: 2px solid black;
+    text-align: center;
+}
