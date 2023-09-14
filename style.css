@@ -12,7 +12,7 @@ h3{
 }
 
 img{
-  width: 300px;
+  width: 100%;
   border-radius: 25px;
 }
 
@@ -31,4 +31,10 @@ h2{
 
 span{
   color: saddlebrown;
+}
+
+@media(max-width:375px){
+  #pets{
+    flex-wrap: wrap;
+  }
 }
