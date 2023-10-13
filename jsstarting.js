@@ -111,3 +111,51 @@ document.querySelector("div").append(heading1);
 let paragraph = document.createElement("p");
 paragraph.innerText = "Mee too!!";
 document.querySelector("div").append(paragraph);
+
+
+
+// const arr = [
+//   {
+//     name: "akshat",
+//     marks: 100,
+//   },
+//   {
+//     name: "saksham",
+//     marks: "99.9999",
+//   },
+//   {
+//     name: "deepanshu",
+//     marks: 99,
+//   },
+// ];
+
+
+// arr.forEach((student)=>{
+//     console.log(`The marks of the student ${student.marks} and the name of the student is ${student.name}`)
+// });
+
+
+// console.log("Hello, this is Akshat");
+
+// setTimeout(() => {
+//     console.log("Welcome to his empire");
+// }, 4000);
+
+// console.log("A very good programmer known for his work");
+
+// let arr =[1,32,123,42]
+
+// let double =arr.map ((el)=>{
+//     return el*el ; 
+// })
+
+// console.log(double);
+
+// 
+// let arr = [2,4135,354,6846,534,3132,1654,313,16,13213]
+// 
+// let final = arr.filter((element)=>{
+//    return element%2==0;
+// });
+// 
+// console.log(final);
